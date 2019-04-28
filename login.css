@@ -3,7 +3,7 @@ body {
     margin :0;
     padding :0;
     font-family : sans-serif;
-    background: #0B3861
+    background: #210B61;
 }
 .box{
     width: 300px;
@@ -17,8 +17,7 @@ body {
 }
 .box h1 {
     color: white;
-    text-transform : uppercase;
-    font-weight: 500;
+    font-weight: 600;
 }
 .box input[type = "text"],.box input[type ="password"]{
     border:0;
@@ -53,6 +52,7 @@ body {
     border-radius : 24px;
     transition : 0.3s;
     cursor : pointer;
+    
 }
 
 .box input[type = "submit"]:hover{
