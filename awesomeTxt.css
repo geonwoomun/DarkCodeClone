@@ -1,0 +1,30 @@
+body{
+    margin : 0;
+    padding : 0;
+    font-family: sans-serif;
+    background : black;
+}
+
+.middle{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.text {
+    font-size : 70px;
+    font-weight: 900;
+    color : white;
+    cursor: pointer;
+}
+.hidden{
+    max-width: 0;
+    opacity: 0;
+    transition : 0.5s ease-in;
+}
+.text:hover .hidden{
+    max-width: 1em;
+    opacity: 1;
+}
